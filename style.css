@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #785bed;
+}
+input{
+    width: 0px;
+    height: 0px;
+    font-size: 100px;
+    border: 0px;
+}
+textarea:focus, input:focus{
+    outline: none;
+}
+img{
+    width: 150px;
+    height: 150px;
+}
+div{
+    width: 150px;
+    height: 150px;
+    background-color: white;
+}
