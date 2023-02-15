@@ -1,9 +1,11 @@
 let elem=document.querySelector("input");
-function button(){
+function onclick(){
+if(elem.width===0){
     elem.style.width=700+"px";
     elem.style.height=150+"px";
 }
-function buttonclick(){
-    elem.style.width=0+"px"
+if(elem.width===700){
+    elem.style.width=0+"px";
     elem.style.height=0+"px";
+}
 }
