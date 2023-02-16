@@ -25,6 +25,7 @@ input{
     height: 150px;
 }
 .divborder{
+    border-radius: 0px;
     border-bottom-right-radius: 20px;
     border-top-right-radius: 20px;
 }
@@ -39,4 +40,5 @@ div{
     width: 150px;
     height: 150px;
     background-color: white;
+    border-radius: 20px;
 }
