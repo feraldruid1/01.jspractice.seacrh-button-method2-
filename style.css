@@ -16,10 +16,17 @@ input{
     font-size: 100px;
     border: none;
     text-indent: 40px;
+    transition: width 1s;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
 }
 .active{
     width: 700px;
     height: 150px;
+}
+.divborder{
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
 }
 textarea:focus, input:focus{
     outline: none;
