@@ -14,7 +14,12 @@ input{
     width: 0px;
     height: 0px;
     font-size: 100px;
-    border: 0px;
+    border: none;
+    text-indent: 40px;
+}
+.active{
+    width: 700px;
+    height: 150px;
 }
 textarea:focus, input:focus{
     outline: none;
